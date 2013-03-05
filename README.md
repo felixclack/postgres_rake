@@ -7,7 +7,9 @@ running migrations in the development environment.
 
 Add this line to your application's Gemfile:
 
-    gem 'postgres_rake'
+    group :development do
+      gem 'postgres_rake'
+    end
 
 And then execute:
 
